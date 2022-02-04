@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+.top{
+  background-color: black;
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+.cloud{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  object-fit: cover;
+}
+.top-h{
+  display: inline-block;
+  text-align: center;
+  margin: 150px auto 0 auto;
+  font-size: 5.5rem;
+}
+.top-p{
+  display: inline-block;
+  margin: 0 auto 0 auto;
+  font-size: 2rem;
+  padding-left: 15px;
+ padding-right: 15px;
+}
+.toon1{
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  height: 250px;
+}
+.toon2{
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  height: 300px;
+}
